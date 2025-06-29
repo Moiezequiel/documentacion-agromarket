@@ -1,0 +1,2307 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../components/">
+      
+      
+        <link rel="next" href="../auth/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Pages - Documentacion de plataforma AgroMarket</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#navbarjsx" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../.." title="Documentacion de plataforma AgroMarket" class="md-header__button md-logo" aria-label="Documentacion de plataforma AgroMarket" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentacion de plataforma AgroMarket
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Pages
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="teal"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="lime"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Documentacion de plataforma AgroMarket" class="md-nav__button md-logo" aria-label="Documentacion de plataforma AgroMarket" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Documentacion de plataforma AgroMarket
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    User Guide
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    SERVER
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            SERVER
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SERVER/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_2" id="__nav_2_1_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    API REST
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            API REST
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SERVER/autenticacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Autenticación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SERVER/productos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Productos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SERVER/usuarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usuarios
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SERVER/ordenes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Órdenes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SERVER/datos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Datos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SERVER/creditos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creditos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SERVER/transacciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Transacciones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SERVER/carrito/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Carrito
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SERVER/carga-datos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Carga de datos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    CLIENT
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            CLIENT
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CLIENT/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2" id="__nav_2_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Código fuente (src)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Código fuente (src)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Components
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Pages
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pages
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#navbarjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navbar.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Navbar.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#props" class="md-nav__link">
+    <span class="md-ellipsis">
+      Props
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dependencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dependencias
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sidebarjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sidebar.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sidebar.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-de-navegacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elementos de navegación
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detalles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detalles
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#layoutjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Layout.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Layout.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funcionalidad
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hooks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dependencias_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dependencias
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inputjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Input.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#props_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Props
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comportamiento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comportamiento
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#productcardjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      ProductCard.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ProductCard.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#props_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Props
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comportamiento_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comportamiento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uso-de-hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uso de hooks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#buttonjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Button.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Button.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#props_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Props
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#estilos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estilos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paginationjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pagination.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pagination.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#props_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Props
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comportamiento_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comportamiento
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#locationmodaljsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      LocationModal.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LocationModal.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#composicion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Composición
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#props_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Props
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comportamiento_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comportamiento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dependencias_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dependencias
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2_3" id="__nav_2_2_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Features
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Features
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../auth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Auth
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../products/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Products
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../profile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Profile
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cart
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../services/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Services
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../router/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Router
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../context/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Context
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#navbarjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navbar.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Navbar.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#props" class="md-nav__link">
+    <span class="md-ellipsis">
+      Props
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dependencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dependencias
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sidebarjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sidebar.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sidebar.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-de-navegacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elementos de navegación
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detalles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detalles
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#layoutjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Layout.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Layout.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funcionalidad
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hooks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dependencias_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dependencias
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inputjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Input.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#props_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Props
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comportamiento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comportamiento
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#productcardjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      ProductCard.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ProductCard.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#props_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Props
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comportamiento_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comportamiento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uso-de-hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uso de hooks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#buttonjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Button.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Button.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#props_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Props
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#estilos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estilos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paginationjsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pagination.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pagination.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#props_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Props
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comportamiento_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comportamiento
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#locationmodaljsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      LocationModal.jsx
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LocationModal.jsx">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcion_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Función
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#composicion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Composición
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#props_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Props
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comportamiento_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comportamiento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dependencias_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dependencias
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Pages</h1>
+
+<p># Carpeta Components</p>
+<hr />
+<h3 id="navbarjsx">Navbar.jsx</h3>
+<p><strong>Componente de barra de navegación superior</strong></p>
+<h4 id="funcion">Función</h4>
+<p>Permite navegar entre las páginas principales de la aplicación mediante íconos interactivos:</p>
+<ul>
+<li>Home (<code>/home</code>)</li>
+<li>Perfil de usuario (<code>/profile</code>)</li>
+<li>Carrito de compras (<code>/cart</code>)</li>
+<li>Menú lateral (función pasada por props)</li>
+</ul>
+<p>Incluye también:</p>
+<ul>
+<li>Campo de búsqueda (por implementar)</li>
+<li>Logo de AgroMarket</li>
+</ul>
+<h4 id="props">Props</h4>
+<table>
+<thead>
+<tr>
+<th>Prop</th>
+<th>Tipo</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>onMenuClick</code></td>
+<td>Function</td>
+<td>Función que se llama al hacer click en el menú</td>
+</tr>
+</tbody>
+</table>
+<h4 id="dependencias">Dependencias</h4>
+<ul>
+<li><code>react-router-dom</code> → para navegación (<code>useNavigate</code>)</li>
+<li><code>lucide-react</code> → íconos</li>
+<li>Imágenes: <code>logo.png</code></li>
+</ul>
+<hr />
+<h3 id="sidebarjsx">Sidebar.jsx</h3>
+<p><strong>Componente de barra lateral</strong></p>
+<h4 id="funcion_1">Función</h4>
+<p>Proporciona navegación vertical en la aplicación.</p>
+<h4 id="elementos-de-navegacion">Elementos de navegación</h4>
+<table>
+<thead>
+<tr>
+<th>Texto</th>
+<th>Ruta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Categorías</td>
+<td><code>/categorias</code></td>
+</tr>
+<tr>
+<td>Vender</td>
+<td><code>/vender</code></td>
+</tr>
+<tr>
+<td>Créditos</td>
+<td><code>/creditos</code></td>
+</tr>
+<tr>
+<td>Perfil</td>
+<td><code>/profile</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="detalles">Detalles</h4>
+<ul>
+<li>Usa <code>react-router-dom</code> (<code>useNavigate</code>) para navegación programática.</li>
+<li>Íconos de navegación de <code>lucide-react</code>.</li>
+<li>Estilo visual: barra lateral vertical (izquierda), fondo verde oscuro (<code>bg-green-900</code>).</li>
+<li>Componente reutilizable.</li>
+</ul>
+<hr />
+<h3 id="layoutjsx">Layout.jsx</h3>
+<p><strong>Componente de layout principal</strong></p>
+<h4 id="funcion_2">Función</h4>
+<p>Define la estructura base de la aplicación AgroMarket:</p>
+<ul>
+<li>Barra superior (Navbar)</li>
+<li>Barra lateral (Sidebar) con comportamiento de toggle</li>
+<li>Área de contenido principal (Outlet)</li>
+</ul>
+<h4 id="funcionalidad">Funcionalidad</h4>
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Navbar</td>
+<td>Muestra la barra superior; pasa control para abrir Sidebar</td>
+</tr>
+<tr>
+<td>Sidebar</td>
+<td>Sidebar lateral; animada con transición; puede ocultarse</td>
+</tr>
+<tr>
+<td>Overlay</td>
+<td>Capa oscura al fondo cuando Sidebar está abierto</td>
+</tr>
+<tr>
+<td>Outlet</td>
+<td>Área de renderizado para rutas hijas (React Router)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="hooks">Hooks</h4>
+<ul>
+<li><code>useState</code> → maneja estado de apertura/cierre del Sidebar</li>
+</ul>
+<h4 id="dependencias_1">Dependencias</h4>
+<ul>
+<li><code>react-router-dom</code> (<code>Outlet</code>)</li>
+<li><code>Navbar</code> (componente)</li>
+<li><code>Sidebar</code> (componente)</li>
+</ul>
+<hr />
+<h3 id="inputjsx">Input.jsx</h3>
+<p><strong>Componente reutilizable de campo de formulario (input)</strong></p>
+<h4 id="props_1">Props</h4>
+<table>
+<thead>
+<tr>
+<th>Prop</th>
+<th>Tipo</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td>Nombre e ID del campo</td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td>string</td>
+<td>Tipo de input (<code>text</code>, <code>email</code>, <code>password</code>, etc.)</td>
+</tr>
+<tr>
+<td><code>value</code></td>
+<td>string</td>
+<td>Valor del input (campo controlado)</td>
+</tr>
+<tr>
+<td><code>onChange</code></td>
+<td>function</td>
+<td>Función llamada al cambiar el valor</td>
+</tr>
+<tr>
+<td><code>placeHolder</code></td>
+<td>string</td>
+<td>Texto de placeholder</td>
+</tr>
+<tr>
+<td><code>required</code></td>
+<td>boolean</td>
+<td>Si es campo obligatorio (<code>true</code> / <code>false</code>)</td>
+</tr>
+<tr>
+<td><code>error</code></td>
+<td>string</td>
+<td>Mensaje de error que se muestra bajo el campo</td>
+</tr>
+</tbody>
+</table>
+<h4 id="comportamiento">Comportamiento</h4>
+<ul>
+<li>Muestra un <code>input</code> estilizado.</li>
+<li>Si <code>error</code> contiene texto, muestra un mensaje de error en rojo debajo del campo.</li>
+<li>Si el campo es <code>required</code>, se valida HTML5.</li>
+</ul>
+<hr />
+<h3 id="productcardjsx">ProductCard.jsx</h3>
+<p><strong>Componente de tarjeta de producto</strong></p>
+<h4 id="funcion_3">Función</h4>
+<p>Muestra la información básica de un producto en una tarjeta visual:</p>
+<ul>
+<li>Imagen del producto</li>
+<li>Nombre</li>
+<li>Descripción (truncada a 58 caracteres)</li>
+<li>Precio</li>
+<li>Botón de acción (texto varía según tipo de usuario)</li>
+</ul>
+<h4 id="props_2">Props</h4>
+<table>
+<thead>
+<tr>
+<th>Prop</th>
+<th>Tipo</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>product</code></td>
+<td>Object</td>
+<td>Objeto producto (debe contener: <code>image</code>, <code>name</code>, <code>description</code>, <code>price</code>)</td>
+</tr>
+<tr>
+<td><code>onViewDetails</code></td>
+<td>Function</td>
+<td>Función que se ejecuta al hacer click en el botón</td>
+</tr>
+</tbody>
+</table>
+<h4 id="comportamiento_1">Comportamiento</h4>
+<ul>
+<li>Si el usuario autenticado es un <strong>seller</strong>, el botón muestra texto: <code>Editar</code>.  </li>
+<li>Si es otro tipo de usuario, el botón muestra: <code>Agregar al carrito</code>.</li>
+<li>Si la imagen falla al cargar, se muestra una imagen por defecto de error.</li>
+</ul>
+<h4 id="uso-de-hooks">Uso de hooks</h4>
+<ul>
+<li><code>useAuth</code> (hook personalizado) → para obtener el rol del usuario (<code>user?.role</code>).</li>
+</ul>
+<hr />
+<h3 id="buttonjsx">Button.jsx</h3>
+<p><strong>Componente de botón reutilizable</strong></p>
+<h4 id="funcion_4">Función</h4>
+<p>Botón estilizado reutilizable con variantes de color y estados.</p>
+<h4 id="props_3">Props</h4>
+<table>
+<thead>
+<tr>
+<th>Prop</th>
+<th>Tipo</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>children</code></td>
+<td>Node</td>
+<td>Contenido del botón (texto o íconos)</td>
+</tr>
+<tr>
+<td><code>onClick</code></td>
+<td>Function</td>
+<td>Función que se ejecuta al hacer click</td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td>string</td>
+<td>Tipo de botón (<code>button</code>, <code>submit</code>, <code>reset</code>) (default: <code>'button'</code>)</td>
+</tr>
+<tr>
+<td><code>variant</code></td>
+<td>string</td>
+<td>Variante de color y estilo: <code>'primary'</code>, <code>'secondary'</code>, <code>'danger'</code>, <code>'success'</code> (default: <code>'primary'</code>)</td>
+</tr>
+<tr>
+<td><code>disabled</code></td>
+<td>boolean</td>
+<td>Si el botón está deshabilitado (default: <code>false</code>)</td>
+</tr>
+<tr>
+<td><code>className</code></td>
+<td>string</td>
+<td>Clases CSS adicionales</td>
+</tr>
+</tbody>
+</table>
+<h4 id="estilos">Estilos</h4>
+<ul>
+<li>Base: padding, borde redondeado, transición en hover.</li>
+<li>Variantes predefinidas:</li>
+<li><strong>primary</strong>: verde (por defecto)</li>
+<li><strong>secondary</strong>: gris</li>
+<li><strong>danger</strong>: rojo</li>
+<li><strong>success</strong>: verde más intenso</li>
+</ul>
+<hr />
+<h3 id="paginationjsx">Pagination.jsx</h3>
+<p><strong>Componente de paginación</strong></p>
+<h4 id="funcion_5">Función</h4>
+<p>Permite al usuario navegar entre páginas de resultados (productos, listas, etc.).</p>
+<h4 id="props_4">Props</h4>
+<table>
+<thead>
+<tr>
+<th>Prop</th>
+<th>Tipo</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>currentPage</code></td>
+<td>number</td>
+<td>Página actual</td>
+</tr>
+<tr>
+<td><code>totalPages</code></td>
+<td>number</td>
+<td>Número total de páginas</td>
+</tr>
+<tr>
+<td><code>onPageChange</code></td>
+<td>function</td>
+<td>Función que se llama al cambiar de página, recibe el número de la nueva página</td>
+</tr>
+</tbody>
+</table>
+<h4 id="comportamiento_2">Comportamiento</h4>
+<ul>
+<li>Muestra botones numerados por página.</li>
+<li>Muestra botones "Previous" y "Next" si aplica.</li>
+<li>La página actual se destaca visualmente.</li>
+<li>Animación hover (zoom suave).</li>
+<li>Se puede reutilizar en cualquier componente que necesite paginación (productos, usuarios, etc.).</li>
+</ul>
+<hr />
+<h3 id="locationmodaljsx">LocationModal.jsx</h3>
+<p><strong>Componente modal para seleccionar una ubicación en el mapa</strong></p>
+<h4 id="funcion_6">Función</h4>
+<p>Permite al usuario seleccionar una ubicación geográfica interactiva mediante un mapa con marcador arrastrable (Leaflet).<br />
+Ideal para:</p>
+<ul>
+<li>Definir direcciones de entrega</li>
+<li>Guardar ubicaciones de vendedores o usuarios</li>
+</ul>
+<h4 id="composicion">Composición</h4>
+<ol>
+<li><strong>LocationModal</strong>: el modal completo</li>
+<li><strong>LocationPicker</strong>: componente interno que maneja el marcador interactivo</li>
+</ol>
+<h4 id="props_5">Props</h4>
+<table>
+<thead>
+<tr>
+<th>Prop</th>
+<th>Tipo</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>position</code></td>
+<td>Array</td>
+<td>Posición actual <code>[lat, lng]</code></td>
+</tr>
+<tr>
+<td><code>setPosition</code></td>
+<td>Function</td>
+<td>Función para actualizar la posición</td>
+</tr>
+<tr>
+<td><code>setAddress</code></td>
+<td>Function</td>
+<td>Función para actualizar la dirección obtenida (string)</td>
+</tr>
+<tr>
+<td><code>setLat</code></td>
+<td>Function</td>
+<td>Función para actualizar la latitud</td>
+</tr>
+<tr>
+<td><code>setLng</code></td>
+<td>Function</td>
+<td>Función para actualizar la longitud</td>
+</tr>
+<tr>
+<td><code>onClose</code></td>
+<td>Function</td>
+<td>Función para cerrar el modal</td>
+</tr>
+</tbody>
+</table>
+<h4 id="comportamiento_3">Comportamiento</h4>
+<ul>
+<li>Mapa basado en <strong>react-leaflet</strong> + <strong>OpenStreetMap</strong></li>
+<li>El usuario puede:</li>
+<li>Hacer clic en el mapa para mover el marcador</li>
+<li>Arrastrar el marcador</li>
+<li>Confirmar la selección con el botón <code>Guardar dirección</code></li>
+<li>Cancelar con el botón <code>Cerrar</code></li>
+<li>Llama a <code>geolocationService(lat, lng)</code> para obtener la dirección basada en las coordenadas</li>
+<li>Maneja errores en la consulta de dirección</li>
+</ul>
+<h4 id="dependencias_2">Dependencias</h4>
+<ul>
+<li><code>react-leaflet</code> + Leaflet CSS</li>
+<li><code>geolocationService</code></li>
+<li>Imagen personalizada para marcador (<code>marker.svg</code>)</li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
